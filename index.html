@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloysius Ambe Portfolio</title>
+    <!-- Boostrap and jquery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/cd2a81525f.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <div class="responsive-nav">
+        <i class="fas fa-bars"></i>
+    </div> -->
+    <nav>
+        <div class="container-fluid nav-menu">
+            <ul>
+                <li><button id="project-link">Projects</button></li>
+                <li><button id="about-link">About</button></li>
+                <li><button id="contact-link">Contact Me</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container-fluid main">
+            <span id="my-name">Hi! I'm Aloysius.</span>
+            <br>
+            <span id="goal">An Aspiring Software Engineer.</span>
+            <div id="about-link">
+                <a href="">
+                    ABOUT ME
+                    <span class="arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div id="icons">
+                <div id="linkedln-icon">
+                    <a href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div id="github-icon">
+                    <a href="">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="row">
+                <div class="col-sm-8 image">
+                    <img src="/images/maze-gen-img.PNG" alt="Maze Generator">
+                </div>
+                <div class="col-sm-4 text">
+                    <div class="project-title">
+                        Maze Generator With Pathfinder
+                    </div>
+                    <div>
+                        Java
+                    </div>
+                    <div>
+                        2020
+                    </div>
+                    <div>
+                        <a href="">
+                            View Project
+                            <span class="arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 image">
+                    <img src="/images/degrees-img.PNG" alt="Maze Generator">
+                </div>
+                <div class="col-sm-4 text">
+                    <div class="project-title">
+                        Hollywood Star Connections
+                    </div>
+                    <div>
+                        Python (Flask) and JavaScript
+                    </div>
+                    <div>
+                        2020
+                    </div>
+                    <div>
+                        <a href="">
+                            View Project
+                            <span class="arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 image">
+                    <img src="/images/sorting-vis-img.PNG" alt="Maze Generator">
+                </div>
+                <div class="col-sm-4 text">
+                    <div class="project-title">
+                        Sorting Visualizer
+                    </div>
+                    <div>
+                        Java
+                    </div>
+                    <div>
+                        2020
+                    </div>
+                    <div>
+                        <a href="">
+                            View Project
+                            <span class="arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="about" class="hide">
+        <h1>About</h1>
+        <div>
+            <div id="about-me-text">
+                <p>
+                    Aloysius is a college student at the Community College of Baltimore County 
+                    who has spent the last two years honing his programming experience and skills.
+                </p>
+                <p>
+                    Taking courses such as Calculus I, Discrete Mathematics, Advanced Programming, 
+                    and C++ Programming has helped improve his critical and algorithmic thinking.
+                </p>
+                <p>
+                    He spends his time outside the classroom working on projects which he finds meaningful.
+                    While working on these projects, he has encountered numerous problems that he swiftly
+                    and elegantly solved.
+                </p>
+            </div>
+            <div id="image-of-me">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section" class="hide">
+        <h1>Contact Me</h1>
+        <div id="contact-form">
+            <div class="form" id="contact-name">
+                <label for="name">Name *</label>
+                <br>
+                <input type="text" placeholder="Your Name..." id="name">
+                <small>Error message</small>
+            </div>
+            <div class="form" id="contact-email">
+                <label for="email">Email Address *</label>
+                <br>
+                <input type="email" placeholder="Your Email..." id="email">
+                <small>Error message</small>
+            </div>
+            <div class="form" id="contact-message">
+                <label for="message">Message *</label>
+                <br>
+                <textarea name="" placeholder="Your Message..." id="message" rows="5"></textarea>
+                <small>Error message</small>
+            </div>
+            <div id="submit-btn">
+                <button id="submit-contact-form">
+                    SUBMIT
+                    <span id="arrow">
+                        <i class="fas fa-arrow-right fa-sm"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/fadeAnimations.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html>
